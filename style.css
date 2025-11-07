@@ -1,297 +1,379 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
-.justifycenter{
-    justify-content: center;
-
+.justifycenter {
+  justify-content: center;
 }
-.justifybetween{
-    justify-content: space-between;
+.justifybetween {
+  justify-content: space-between;
 }
-.aligncenter{
-    align-items: center;
+.aligncenter {
+  align-items: center;
 }
-.column{
-    flex-direction: column;
-}
-
-.section{
-height: 100vh;
-background-color: aquamarine;
-border: 5px solid blue;
-width: 1440px;
-
+.column {
+  flex-direction: column;
 }
 
-.header{
-    border: 3px solid black;
-    padding: 40px 0;
-    width: 1064px;
-    margin: 0 118px;
+.section {
+  height: 100vh;
+  background-color: aquamarine;
+  border: 5px solid blue;
+  width: 1440px;
 }
-.header img{
-    height: 34px;
-}
-.menu-items{
-    gap: 24px;
-}
-.lang{
-    background-color: white;
-    border-radius: 100%;
-    height: 40px;
-    width: 40px;
 
+.header {
+  border: 3px solid black;
+  padding: 40px 0;
+  width: 1064px;
+  margin: 0 118px;
 }
-.section1img{
-    background-image: url(./images/HeroImage.png);
-    background-position: center;
-    background-size: center;
+.header img {
+  height: 34px;
 }
-.hero{
-margin: 169px 411px;
-font-size: 50px;
+.menu-items {
+  gap: 24px;
 }
-.pure{
-    color: #323535;
+.lang {
+  background-color: white;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
 }
-.awaits{
-    color: white;
+.section1img {
+  background-image: url(./images/HeroImage.png);
+  background-position: center;
+  background-size: cover;
 }
-.year{
-    color: #323535;
+.hero {
+  margin: 169px 411px;
+  font-size: 50px;
+}
+.pure {
+  color: #323535;
+}
+.awaits {
+  color: white;
+}
+.year {
+  color: #323535;
 }
 
 /* second */
-.location{
-    border: 5px solid blue;
-    height: 50vh;
-    width: 1440px;
+.location {
+  border: 5px solid blue;
+  height: 50vh;
+  width: 1440px;
 }
-.locationimg{
-    background-image: url(./images/Location\ image.png);
-    padding: 0 110px;
+.locationimg {
+  background-image: url(./images/Location\ image.png);
+  padding: 0 110px;
+}
 
+.card {
+  
+  height: 370px;
+  width: 270px;
+  border-radius: 40px;
+  box-shadow: 8px 8px #29728B40, -8px -8px #1F72AA75;
+  
 }
-.card1, .card2, .card3, .card4 {
-    border: 5px solid black;
-    height: 370px;
-    width: 270px;
+
+.overlay {
+    width: 100%;
+    height: 100%;
     border-radius: 40px;
-   filter: drop-shadow( 8px 8px rgb(166, 207, 229) );
-
-   box-shadow: 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
-   /* box-shadow: -8px -8px 0px 0px rgba(31, 114, 170, 0.46); */
-   
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 37px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #FDFDFECC
 }
-.card1img{
-    background-image: url(./images/terkhiin\ lake\ image.png);
-    background-position: center;
-    background-size: cover;
+.overlay:hover{
+    background-color: rgba(41, 41, 41, 0.4);
+    color: #FDFDFE;
 }
-.card2img{
-   background-image: url(./images/amarbaysgalant\ image.png);
-    background-position: center;
-    background-size: cover;
+.card1img {
+  background-image: url(./images/terkhiin\ lake\ image.png);
+  background-position: center;
+  background-size: cover;
 }
-.card3{
-    background-image: url(./images/khuvsgul\ image.png);
-    background-position: center;
-    background-size: cover;
+.card2img {
+  background-image: url(./images/amarbaysgalant\ image.png);
+  background-position: center;
+  background-size: cover;
 }
-.card4img{
-    background-image: url(./images/khorgiin\ togoo\ image.png);
-    background-position: center;
-    background-size: cover;
+.card3img {
+  background-image: url(./images/khuvsgul\ image.png);
+  background-position: center;
+  background-size: cover;
+}
+.card4img {
+  background-image: url(./images/khorgiin\ togoo\ image.png);
+  background-position: center;
+  background-size: cover;
 }
 
 /* third step */
-.map{
-  background-color: greenyellow;  
+.map {
+  background-color: greenyellow;
   height: 900px;
   border: 3px solid blue;
   width: 1440px;
   border: 5px solid black;
- 
 }
 
-.header1{
-    height: 85px;
-    margin-top: 120px;
-    border: 3px solid black;
-    justify-content: end;
-    align-items: center;
-    
+.header1 {
+  height: 85px;
+  margin-top: 120px;
+  border: 3px solid black;
+  justify-content: end;
+  align-items: center;
 }
-.header1 h2{
-    font-size: 40px;
+.header1 h2 {
+  font-size: 40px;
 }
 .header1 p {
-    font-size: 20px;
+  font-size: 20px;
 }
-.leftRightside{
-    border: 3px solid red;
-    width: 1200px;
-    height: 625px;
-    margin: 60px 120px 0 120px;
+.leftRightside {
+  border: 3px solid red;
+  width: 1200px;
+  height: 625px;
+  margin: 60px 120px 0 120px;
 }
 .left1 {
-    height: 90px;
-    width: 500px;
-    background-color: rgb(230, 190, 129);
-    border-radius: 125px ;
-    margin: 50px 120px 20px;
-     padding: 0 20px; 
-     border: 3px solid white;
-    
+  height: 90px;
+  width: 500px;
+  background-color: rgb(230, 190, 129);
+  border-radius: 125px;
+  margin: 50px 120px 20px;
+  padding: 0 20px;
+  border: 5px solid rgb(230, 190, 129);
 }
 
-
-.left1 img, .left2 img, .left3 img, .left4 img, .left5 img {
-    flex-direction: row;
-    height: 14px;
-    width: 14px;
+.left1 img,
+.left2 img,
+.left3 img,
+.left4 img,
+.left5 img {
+  height: 14px;
+  width: 14px;
 }
-.day, .day2, .day3, .day4, .day5{
-    background-color: white;
-    border-radius: 100px;
-    height: 50px;
-    width: 50px;
-
+.mappin2 {
+    gap: 10px;ß
 }
-.left2, .left3, .left4, .left5{
-    height: 100px;
-    width: 500px;
-    background-color: rgb(75, 176, 162);
-    padding: 0 20px;
-    border-radius: 125px;
-    margin: 20px 120px; border: 3px solid wheat;
+.day,
+.day2,
+.day3,
+.day4,
+.day5 {
+  background-color: white;
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
 }
-.mapimg{
-    background-image: url(./Roadmap\ image.png);
-    background-position: center;
-    background-size: cover;
+.left2,
+.left3,
+.left4,
+.left5 {
+  height: 100px;
+  width: 500px;
+  background-color: rgb(75, 176, 162);
+  padding: 0 20px;
+  border-radius: 125px;
+  margin: 20px 120px;
+  border: 5px solid rgb(75, 176, 162);
 }
-
-.circle_sukh img, .circle_amar img, .circle_khorgiin img, .circle_terkh img, .circle_khuv img{
-    height: 240px;
-    width: 240px;
-}
-
-.left1:hover + .circle_sukh img, .left2:hover + .circle_amar img, .left3:hover + .circle_khorgiin img, .left4:hover + .circle_terkh img, .left5:hover + .circle_khuv img{
-    display: block;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-
-}
-.circle_sukh img, .circle_amar img, .circle_khorgiin img, .circle_terkh img, .circle_khuv img{ 
-    display: none;
-}
-.leftRightside{
-    position: relative;
-
-}
-.left1:hover, .left2:hover, .left3:hover, .left4:hover, .left5:hover{
-    border: 5px solid white;
+.mapimg {
+  background-image: url(./Roadmap\ image.png);
+  background-position: center;
+  background-size: cover;
 }
 
-
-
-
-
-.pic img{
-    height: 650px;
-    width: 650px;
-   margin: 0 40px 120px;
+.circle_sukh img,
+.circle_amar img,
+.circle_khorgiin img,
+.circle_terkh img,
+.circle_khuv img {
+  height: 240px;
+  width: 240px;
 }
 
+.left1:hover + .circle_sukh img {
+  display: block;
+  position: absolute;
+  right: 38px;
+  top: 4px;
+}
+.left2:hover + .circle_amar img {
+  display: block;
+  position: absolute;
+  right: 235px;
+  top: -108px;
+}
+.left3:hover + .circle_khorgiin img {
+  display: block;
+  position: absolute;
+  right: 372px;
+  top: 17px;
+}
+.left4:hover + .circle_terkh img {
+  display: block;
+  position: absolute;
+  right: 400px;
+  top: -150px;
+}
+.left5:hover + .circle_khuv img {
+  display: block;
+  position: absolute;
+  right: 250px;
+  top: 235px;
+}
+.circle_sukh img,
+.circle_amar img,
+.circle_khorgiin img,
+.circle_terkh img,
+.circle_khuv img {
+  display: none;
+}
+.leftRightside {
+  position: relative;
+}
+.left1:hover,
+.left2:hover,
+.left3:hover,
+.left4:hover,
+.left5:hover {
+  border: 5px solid white;
+}
 
-.footer{
-    background-color: aquamarine;
-    border: 3px solid black;
-    height: 100vh;
-    width: 1440px;
+.rightside {
+  border: 3px solid blue;
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+.rightside img {
+  position: absolute;
+  left: -100px;
+  top: -75px;
+}
+
+.left10 {
+  border: 5px solid green;
+  height: 630px;
+  width: 640px;
+}
+.mapimg {
+  background-image: url(./images/Roadmap\ image.png);
+  background-position: center;
+  background-size: cover;
+}
+.pic img {
+  height: 650px;
+  width: 650px;
+  margin: 0 40px 120px;
+}
+
+.footer {
+  background-color: aquamarine;
+  border: 3px solid black;
+  height: 100vh;
+  width: 1440px;
 }
 .header2 {
-    height: 150px;
-justify-content: end;
-
+  height: 150px;
+  justify-content: end;
 }
-.header2 h4{
-    font-size: 40px;
+.header2 h4 {
+  font-size: 40px;
 }
 .hero2 {
-
 }
-.packageheader img, .packageheader2 img, .packageheader3 img{
-    height: 20px;
-    width: 20px;
-    border: 2px solid black;
-    border-radius: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-
+.packageheader img,
+.packageheader2 img,
+.packageheader3 img {
+  height: 20px;
+  width: 20px;
+  border: 2px solid black;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.package, .package2, .package3 {
-/* border: 3px solid black; */
-height: 90px;
-width: 380px;
-padding-right: 170px;
-
+.package,
+.package2,
+.package3 {
+  /* border: 3px solid black; */
+  height: 90px;
+  width: 380px;
+  padding-right: 170px;
 }
-.packageheader3, .packageheader2, .packageheader{
-   margin: 30px 30px ;
+.packageheader3,
+.packageheader2,
+.packageheader {
+  margin: 30px 30px;
 }
-.packagehero1, .packagehero2, .packagehero3{
-    /* border: 3px solid red; */
-    border-radius: 40px;
-    background-color: white;
-    height: 520px;
-    width: 400px;
-}
-
-.packcontent3, .packcontent2, .packcontent{
-    margin: 40px  20px;
-    /* border: 3px solid red; */
-    height: 70px;
-    width: 350px;
+.packagehero1,
+.packagehero2,
+.packagehero3 {
+  /* border: 3px solid red; */
+  border-radius: 40px;
+  background-color: white;
+  height: 520px;
+  width: 400px;
 }
 
-.packcont3, .packcont2, .packcont{
-height: 200px;
-width: 350px;
-/* border: 3px solid green; */
-margin-left: 30px;
+.packcontent3,
+.packcontent2,
+.packcontent {
+  margin: 40px 20px;
+  /* border: 3px solid red; */
+  height: 70px;
+  width: 350px;
 }
 
-.packcont3 h3, .packcont2 h2, .packcont h3{
-    font-size: 20px;
+.packcont3,
+.packcont2,
+.packcont {
+  height: 200px;
+  width: 350px;
+  /* border: 3px solid green; */
+  margin-left: 30px;
 }
-.packcontent3 h5,  .dollar800 h1, .packcontent h2 {
-    font-size: 30px;
-}.sel{
-    /* border: 3px solid green; */
-    height: 50px;
-    width: 340px;
-    border-radius: 200px;
-    margin:  48px 24px;
-    background-color: rgb(213, 223, 70);
-    
+
+.packcont3 h3,
+.packcont2 h2,
+.packcont h3 {
+  font-size: 20px;
 }
-.pop{
-    /* border: 2px solid red; */
-    width: 90px;
-    height: 17px;
-    background-color: rgb(63, 148, 184);
-    border-radius: 100px;
-    font-size: 20px;
-    color: aliceblue;
+.packcontent3 h5,
+.dollar800 h1,
+.packcontent h2 {
+  font-size: 30px;
+}
+.sel {
+  /* border: 3px solid green; */
+  height: 50px;
+  width: 340px;
+  border-radius: 200px;
+  margin: 48px 24px;
+  background-color: rgb(213, 223, 70);
+}
+.pop {
+  /* border: 2px solid red; */
+  width: 90px;
+  height: 17px;
+  background-color: rgb(63, 148, 184);
+  border-radius: 100px;
+  font-size: 20px;
+  color: aliceblue;
 }
