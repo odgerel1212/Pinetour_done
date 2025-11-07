@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -76,29 +76,26 @@
 }
 
 .card {
-  
   height: 370px;
   width: 270px;
   border-radius: 40px;
-  box-shadow: 8px 8px #29728B40, -8px -8px #1F72AA75;
-  
+  box-shadow: 8px 8px #29728b40, -8px -8px #1f72aa75;
 }
-
 .overlay {
-    width: 100%;
-    height: 100%;
-    border-radius: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 37px;
-    font-family: "Bebas Neue", sans-serif;
-    color: #FDFDFECC
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 37px;
+  font-family: "Bebas Neue", sans-serif;
+  color: #fdfdfecc;
 }
-.overlay:hover{
-    background-color: rgba(41, 41, 41, 0.4);
-    color: #FDFDFE;
+.overlay:hover {
+  background-color: rgba(41, 41, 41, 0.4);
+  color: #fdfdfe;
 }
 .card1img {
   background-image: url(./images/terkhiin\ lake\ image.png);
@@ -168,7 +165,7 @@
   width: 14px;
 }
 .mappin2 {
-    gap: 10px;ß
+  gap: 10px;
 }
 .day,
 .day2,
