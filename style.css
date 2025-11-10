@@ -2,12 +2,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comic+Relief:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pinyon+Script&family=Playpen+Sans:wght@100..800&family=Story+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comic+Relief:wght@400;700&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pinyon+Script&family=Playpen+Sans:wght@100..800&family=Story+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comic+Relief:wght@400;700&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pinyon+Script&family=Playpen+Sans:wght@100..800&family=Story+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+.center {
+  width: 1440px;
+  margin: 0 auto;
+}
+
 .flex {
   display: flex;
 }
@@ -42,11 +49,12 @@
   height: 34px;
 }
 .menu-items {
-  gap: 24px;
+  gap: 60px;
   font-size: 18px;
   color: white;
   font-family: "Inter", sans-serif;
   font-style: semibold;
+  font-weight: 600;
 }
 .menu-items img {
   height: 20px;
@@ -66,13 +74,14 @@
 .hero {
   height: 394px;
   width: 618px;
-  margin-top: 60px;
+  margin-top: 260px;
 }
 .pure {
   color: #e8edf2b8;
   font-family: "Bebas Neue", sans-serif;
   font-size: 80px;
   height: 80px;
+  font-weight: 400;
 }
 .awaits {
   color: #fdfdfefa;
@@ -80,6 +89,7 @@
   font-size: 250px;
   height: 250px;
   font-style: Regular;
+  font-weight: 400;
 }
 .year {
   color: #ffffffcc;
@@ -87,6 +97,7 @@
   font-size: 64px;
   font-style: black;
   height: 64px;
+  font-weight: 900;
 }
 
 /* second */
@@ -163,12 +174,14 @@
   font-size: 42px;
   font-family: "Inter", sans-serif;
   color: #000000;
+  font-weight: 600;
 }
 .header1 p1 {
   font-size: 20px;
   font-family: "Inter", sans-serif;
   font-style: medium;
   color: #18181bb2;
+  font-weight: 500;
 }
 .leftRightside {
   /* border: 3px solid red; */
@@ -191,12 +204,14 @@
   font-size: 24px;
   font-family: "Inter", sans-serif;
   font-style: medium;
+  font-weight: 500;
 }
 
 .mappin2 {
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
   font-style: Regular;
+  font-weight: 400;
 }
 .left1 img,
 .left2 img,
@@ -355,12 +370,14 @@
   font-family: "Inter", sans-serif;
   font-style: semibold;
   color: #000000;
+  font-weight: 600;
 }
 .footer_header p2 {
   font-size: 20px;
   font-family: "Inter", sans-serif;
   font-style: medium;
   color: #18181bb2;
+  font-weight: 500;
 }
 
 .big_box {
@@ -423,10 +440,12 @@
   font-family: "Montserrat", sans-serif;
   font-style: semibold;
   font-size: 40px;
+  font-weight: 600;
 }
 .price p {
   font-size: 16px;
   font-family: "Inter", sans-serif;
+  font-weight: 500;
   font-style: medium;
   color: #919191;
 }
@@ -507,4 +526,37 @@
 }
 .over_select:hover {
   background-color: #18181be5;
+}
+.footer_section {
+  height: 204px;
+  width: 1440px;
+  background-color: #9fc6de;
+}
+.facebook {
+  height: 44px;
+  width: 167px;
+  border-radius: 100px;
+  gap: 10px;
+  background-color: #fafbfc;
+  margin-left: 120px;
+}
+.instagram {
+  height: 44px;
+  width: 167px;
+  border-radius: 100px;
+  gap: 10px;
+  background-color: #fafbfc;
+  margin-left: 20px;
+}
+.facebook p,
+.instagram p {
+  color: #6972b5;
+  font-family: Montserrat;
+  font-style: bold;
+  font-size: 18px;
+}
+.facebook img,
+.instagram img {
+  height: 20px;
+  width: 20px;
 }
