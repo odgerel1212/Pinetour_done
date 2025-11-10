@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comic+Relief:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pinyon+Script&family=Playpen+Sans:wght@100..800&family=Story+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comic+Relief:wght@400;700&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pinyon+Script&family=Playpen+Sans:wght@100..800&family=Story+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comic+Relief:wght@400;700&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pinyon+Script&family=Playpen+Sans:wght@100..800&family=Story+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comic+Relief:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pinyon+Script&family=Playpen+Sans:wght@100..800&family=Story+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comic+Relief:wght@400;700&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pinyon+Script&family=Playpen+Sans:wght@100..800&family=Story+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comic+Relief:wght@400;700&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pinyon+Script&family=Playpen+Sans:wght@100..800&family=Story+Script&display=swap");
 
 * {
   margin: 0;
@@ -23,7 +23,7 @@
 .column {
   flex-direction: column;
 }
-.around{
+.around {
   justify-content: space-around;
 }
 
@@ -45,11 +45,10 @@
   gap: 24px;
   font-size: 18px;
   color: white;
-  font-family: "Inter" , sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: semibold;
-  
 }
-.menu-items img{
+.menu-items img {
   height: 20px;
   width: 20px;
 }
@@ -64,30 +63,29 @@
   background-position: center;
   background-size: cover;
 }
-.hero { 
+.hero {
   height: 394px;
   width: 618px;
   margin-top: 60px;
 }
 .pure {
-  color: #E8EDF2B8;
+  color: #e8edf2b8;
   font-family: "Bebas Neue", sans-serif;
   font-size: 80px;
   height: 80px;
 }
 .awaits {
-  color:#FDFDFEFA;
+  color: #fdfdfefa;
   font-family: "Bebas Neue", sans-serif;
   font-size: 250px;
-   height: 250px;
-   font-style: Regular;
-
+  height: 250px;
+  font-style: Regular;
 }
 .year {
-  color: #FFFFFFCC;
+  color: #ffffffcc;
   font-family: Hanuman;
   font-size: 64px;
-  font-style:black;
+  font-style: black;
   height: 64px;
 }
 
@@ -107,7 +105,6 @@
   width: 270px;
   border-radius: 40px;
   box-shadow: 8px 8px #29728b40, -8px -8px #1f72aa75;
-  
 }
 .overlay {
   width: 100%;
@@ -150,7 +147,6 @@
 .map {
   width: 1440px;
   height: 1020px;
- 
 }
 .mapimg {
   background-image: url(./Roadmap\ image.png);
@@ -165,40 +161,42 @@
 }
 .header1 p {
   font-size: 42px;
-   font-family: "Inter" , sans-serif;
+  font-family: "Inter", sans-serif;
   color: #000000;
-  
 }
 .header1 p1 {
   font-size: 20px;
-  font-family: "Inter" , sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: medium;
-  color: #18181BB2;
+  color: #18181bb2;
 }
 .leftRightside {
   /* border: 3px solid red; */
   width: 1200px;
   height: 800px;
-  
 }
 .left1 {
   height: 112px;
   width: 513px;
-  background-color: #EEE9D9;
+  background-color: #eee9d9;
   border-radius: 125px;
   margin: 50px 120px 20px;
   padding: 0 20px;
 }
-.Sukhbaatar, .Amarbaysgalant, .khorgiintogoo, .terkhiin, .khuvsgul{
+.Sukhbaatar,
+.Amarbaysgalant,
+.khorgiintogoo,
+.terkhiin,
+.khuvsgul {
   font-size: 24px;
-  font-family: "Inter" , sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: medium;
 }
 
-.mappin2{
-font-size: 12px;
-font-family: "Montserrat", sans-serif;
-font-style: Regular ;
+.mappin2 {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-style: Regular;
 }
 .left1 img,
 .left2 img,
@@ -221,26 +219,26 @@ font-style: Regular ;
   height: 50px;
   width: 50px;
 }
-.left2{
-   height: 112px;
+.left2 {
+  height: 112px;
   width: 513px;
-  background-color: #8BB8C1CC;
+  background-color: #8bb8c1cc;
   padding: 0 20px;
   border-radius: 125px;
   margin: 20px 120px;
 }
-.left3{
+.left3 {
   height: 112px;
   width: 513px;
-  background-color: #AAD8D7CC;
+  background-color: #aad8d7cc;
   padding: 0 20px;
   border-radius: 125px;
   margin: 20px 120px;
 }
-.left4{
+.left4 {
   height: 112px;
   width: 513px;
-  background-color: #8BC0BDCC;
+  background-color: #8bc0bdcc;
   padding: 0 20px;
   border-radius: 125px;
   margin: 20px 120px;
@@ -248,13 +246,11 @@ font-style: Regular ;
 .left5 {
   height: 112px;
   width: 513px;
-  background-color: #97CCE0CC;
+  background-color: #97cce0cc;
   padding: 0 20px;
   border-radius: 125px;
   margin: 20px 120px;
-
 }
-
 
 .circle_sukh img,
 .circle_amar img,
@@ -305,8 +301,12 @@ font-style: Regular ;
 .leftRightside {
   position: relative;
 }
-.left1:hover, .left2:hover, .left3:hover, .left4:hover, .left5:hover {
-  border: 4px solid #FFFFFF;
+.left1:hover,
+.left2:hover,
+.left3:hover,
+.left4:hover,
+.left5:hover {
+  border: 4px solid #ffffff;
 }
 
 .rightside {
@@ -324,7 +324,6 @@ font-style: Regular ;
 .left10 {
   height: 630px;
   width: 640px;
-  
 }
 .mapimg {
   background-image: url(./images/Roadmap\ image.png);
@@ -338,175 +337,174 @@ font-style: Regular ;
 }
 /* fourthside */
 
-.footer{
+.footer {
   width: 1440px;
   height: 100vh;
   background-color: rgb(75, 142, 152);
- 
 }
-.footer{
+.footer {
   background-image: url(./images/Price&Footer\ image.png);
   background-size: cover;
   background-position: center;
 }
-.footer_header{
+.footer_header {
   margin-top: 40px;
 }
 .footer_header p1 {
   font-size: 42px;
-  font-family: "Inter" , sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: semibold;
   color: #000000;
-  
 }
 .footer_header p2 {
   font-size: 20px;
-  font-family: "Inter" , sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: medium;
-  color: #18181BB2;
+  color: #18181bb2;
 }
 
-.big_box{
+.big_box {
   height: 527px;
   width: 1200px;
   margin: 80px 120px;
   gap: 24px;
 }
-.box{
+.box {
   width: 385px;
   height: 525px;
   border-radius: 40px;
-  background-color: #FAFBFC;
-  
+  background-color: #fafbfc;
 }
-.box:hover{
-  box-shadow: 8px 8px #29728B40, -8px -8px #2E414766;
+.box:hover {
+  box-shadow: 8px 8px #29728b40, -8px -8px #2e414766;
 }
-.box_header{
+.box_header {
   height: 90px;
   width: 385px;
   gap: 16px;
 }
-.box_header p{
+.box_header p {
   font-size: 18px;
-  font-family: "Inter" , sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: medium;
-  color:#121316 ;
-  
+  color: #121316;
 }
-.heart{
+.heart {
   background-image: url(./images/IconButton\ 1.png);
   background-size: cover;
   height: 36px;
   width: 36px;
   border-radius: 100px;
-  margin-left: 24px ;
+  margin-left: 24px;
   margin-top: 32px;
-  }
-  .bug{
-    height: 22px;
-    width: 150px;
-    margin-top: 39px;
-  }
+}
+.bug {
+  height: 22px;
+  width: 150px;
+  margin-top: 39px;
+}
 
-  .over{
-    height: 100%;
-    border-radius: 100px;
-  }
-  .over:hover{
-    background-color:rgba(2, 16, 19, 0.24);
-  }
-  .price{
+.over {
+  height: 100%;
+  border-radius: 100px;
+}
+.over:hover {
+  background-color: rgba(2, 16, 19, 0.24);
+}
+.price {
   gap: 10px;
   margin-left: 24px;
   margin-top: 12px;
   height: 85px;
-    width: 335px;
-
-  }
-  .price h1{
-    color: #303030;
-    font-family: "Montserrat", sans-serif;
-    font-style: semibold ;
-    font-size: 40px;
-  }
-.price p{
-  font-size: 16px;
-  font-family: "Inter" , sans-serif;
-  font-style: medium;
-  color:#919191 ;
+  width: 335px;
 }
-.checklist{
+.price h1 {
+  color: #303030;
+  font-family: "Montserrat", sans-serif;
+  font-style: semibold;
+  font-size: 40px;
+}
+.price p {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-style: medium;
+  color: #919191;
+}
+.checklist {
   height: 180px;
   width: 335px;
   margin-left: 24px;
   margin-top: 32px;
 }
-.checklist h2{
-  color:#121316;
-  font-family: "Inter" , sans-serif;
+.checklist h2 {
+  color: #121316;
+  font-family: "Inter", sans-serif;
   font-style: medium;
   font-size: 18px;
 }
-.checklist1 h2{
-  color:#121316;
-  font-family: "Inter" , sans-serif;
+.checklist1 h2 {
+  color: #121316;
+  font-family: "Inter", sans-serif;
   font-style: medium;
   font-size: 18px;
 }
-.include{
+.include {
   margin-left: 42px;
 }
-.checklist1{
- height: 180px;
+.checklist1 {
+  height: 180px;
   width: 335px;
   margin-left: 24px;
   margin-top: 45px;
 }
 
-.check img{
+.check img {
   height: 20px;
   width: 20px;
 }
-.check{
+.check {
   gap: 20px;
 }
-.check p{
-   font-family: "Inter" , sans-serif;
+.check p {
+  font-family: "Inter", sans-serif;
   font-style: medium;
   font-size: 14px;
-  color: #3F4145;
+  color: #3f4145;
 }
-.added_popular{
-   height: 85px;
-   width: 370px;}
+.added_popular {
+  height: 85px;
+  width: 370px;
+}
 
-  .popular {
-    height: 27px;
-    width: 130px;
-    border-radius: 100px;
-    background-color: #6972B5;
-    color: white;
-    margin-top: 63px ;
-    margin-right: 24px;
-    font-size: 16px;
-    font-family: "Inter" , sans-serif;
+.popular {
+  height: 27px;
+  width: 130px;
+  border-radius: 100px;
+  background-color: #6972b5;
+  color: white;
+  margin-top: 63px;
+  margin-right: 24px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
   font-style: medium;
-  }
-  .select{
+}
+.select {
   height: 48px;
   width: 335px;
   margin-top: 34px;
   border-radius: 100px;
   margin-left: 24px;
   color: black;
-  background-color: #A4D1E2;
+  background-color: #a4d1e2;
+  font-family: "Inter", sans-serif;
+  font-style: semibold;
+  font-size: 16px;
 }
-.over_select{
+.over_select {
   height: 100%;
   width: 100%;
   border-radius: 100px;
 }
-.over_select:hover{
-background-color: #18181BE5;
+.over_select:hover {
+  background-color: #18181be5;
 }
